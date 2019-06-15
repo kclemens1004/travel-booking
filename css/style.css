@@ -1,0 +1,97 @@
+/* BASE STYLES */
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #1165b8;
+    height: 125px;
+}
+
+header h1 {
+    margin: 5px; 
+    font-size: 45px;
+}
+
+header h3 {
+    margin: 5px;
+}
+
+/* Pick Hotel */
+
+#pick-hotel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pick-hotel h3 {
+    padding-right: 10px;
+}
+
+/* Hotel Info */
+
+#hotel-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#hotel-name {
+    width: 100%;
+}
+
+#hotel-detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#hotel-image {
+    width: 30%;
+}
+
+#hotel-detail img {
+    width: 100%;
+    height: auto;
+}
+
+#hotel-description {
+    width: 40%;
+}
